@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "b6e93bf2-4871-45a4-ba16-0f4711ab9708",
+		"name": "file-system",
+		"description": "TASK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34880524"
+	},
+	"item": [
+		{
+			"name": "show all files",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nodejs-filesystem-erbw.onrender.com/files",
+					"protocol": "https",
+					"host": [
+						"nodejs-filesystem-erbw",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"files"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create files",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://nodejs-filesystem-erbw.onrender.com/create-file",
+					"protocol": "https",
+					"host": [
+						"nodejs-filesystem-erbw",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"create-file"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
