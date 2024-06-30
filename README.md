@@ -99,3 +99,15 @@
 **future enhancements:**
     
     Future enhancements could include adding user authentication, file upload validation, improved error handling, automated tests, pagination for the file list, support for different file types, a web-based interface for file management, and integration with a database.
+
+
+**In postman**
+   
+   1. For creating the file use the endpoint:
+   
+        $post:  https://nodejs-filesystem-erbw.onrender.com/create-file
+
+   2. To view all the files use the endpoint:
+
+        $Get:   https://nodejs-filesystem-erbw.onrender.com/files
+         
