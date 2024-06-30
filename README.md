@@ -101,6 +101,34 @@
     Future enhancements could include adding user authentication, file upload validation, improved error handling, automated tests, pagination for the file list, support for different file types, a web-based interface for file management, and integration with a database.
 
 
+
+---
+
+### Render URL with Endpoints Details
+Base URL: `http://localhost:3000`
+
+**Endpoints:**
+1. **Create File**: `POST /create-file`
+   - Description: Creates a text file with the current timestamp as content.
+   - Response: 
+     ```json
+     {
+       "message": "File 'YYYY-MM-DD_HH-MM-SS.txt' created successfully with timestamp 'YYYY-MM-DD_HH-MM-SS'"
+     }
+     ```
+
+2. **Retrieve Files**: `GET /files`
+   - Description: Retrieves a list of all text files in the upload folder.
+   - Response:
+     ```json
+     {
+       "files": ["YYYY-MM-DD_HH-MM-SS.txt", "YYYY-MM-DD_HH-MM-SS.txt"]
+     }
+     ```
+**Last Committed Hash ID**
+
+      `fda02b7a346c85c2ab5a543dba3e43d319a77159`
+
 **In postman**
    
    1. For creating the file use the endpoint:
@@ -110,4 +138,5 @@
    2. To view all the files use the endpoint:
 
         $Get:   https://nodejs-filesystem-erbw.onrender.com/files
-         
+
+---
